@@ -1,0 +1,748 @@
+22:15:02.784 [] [main] INFO  com.revature.Driver - Application started
+22:15:02.807 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+22:43:36.506 [] [main] INFO  com.revature.Driver - Application started
+22:43:36.530 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+22:51:25.073 [] [main] INFO  com.revature.Driver - Application started
+22:51:25.111 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+11:07:03.022 [] [main] INFO  com.revature.Driver - Application started
+11:07:03.050 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+11:09:43.504 [] [main] INFO  com.revature.Driver - Application started
+11:09:43.638 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+11:12:49.769 [] [main] INFO  com.revature.Driver - Application started
+11:12:49.909 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+14:06:27.359 [] [main] INFO  com.revature.Driver - Application started
+14:06:27.520 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+14:07:49.708 [] [main] INFO  com.revature.Driver - Application started
+14:07:49.752 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+14:32:00.015 [] [main] INFO  com.revature.Driver - Application started
+14:32:00.059 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+14:32:18.743 [] [main] INFO  com.revature.Driver - Application started
+14:32:18.788 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+17:47:11.891 [] [main] INFO  com.revature.Driver - Application started
+17:48:01.672 [] [main] INFO  com.revature.Driver - Application started
+17:59:38.156 [] [main] INFO  com.revature.Driver - Application started
+18:02:50.272 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+10:28:46.938 [] [main] INFO  com.revature.Driver - Application started
+13:37:26.781 [] [main] INFO  com.revature.Driver - Application started
+17:56:50.720 [] [main] INFO  com.revature.Driver - Application started
+17:57:03.876 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+17:57:10.010 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+17:57:10.023 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+17:57:10.176 [] [main] ERROR com.revature.daos.UserDAOImpl - couldn't log in
+org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:2944)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2172)
+	at com.revature.daos.UserDAOImpl.logInUser(UserDAOImpl.java:33)
+	at com.revature.services.UserService.logInUser(UserService.java:28)
+	at com.revature.controllers.MenuController.logIn(MenuController.java:24)
+	at com.revature.Driver.main(Driver.java:35)
+17:59:31.489 [] [main] INFO  com.revature.Driver - Application started
+17:59:40.527 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+17:59:46.713 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+17:59:46.722 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:08:45.447 [] [main] INFO  com.revature.Driver - Application started
+18:09:27.752 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:09:33.235 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:09:33.245 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:10:36.178 [] [main] INFO  com.revature.Driver - Application started
+18:10:51.070 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:10:56.270 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:10:56.282 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:11:08.262 [] [main] INFO  c.r.controllers.MenuController - admin logging out
+18:11:39.620 [] [main] INFO  com.revature.Driver - Application started
+18:11:49.032 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:12:07.193 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:12:07.204 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:12:18.449 [] [main] INFO  com.revature.Driver - Application started
+18:12:26.353 [] [main] DEBUG c.r.controllers.MenuController - creating a new user
+18:12:31.130 [] [main] DEBUG c.r.controllers.MenuController - creating a new user
+18:12:31.142 [] [main] DEBUG com.revature.daos.UserDAOImpl - finding user with username tom
+18:12:31.456 [] [main] DEBUG com.revature.daos.UserDAOImpl - creating new user
+18:12:31.539 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:12:39.597 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:12:39.598 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:13:41.107 [] [main] INFO  c.r.controllers.MenuController - customer logging out
+18:13:57.291 [] [main] INFO  com.revature.Driver - Application started
+18:14:05.015 [] [main] DEBUG c.r.controllers.MenuController - creating a new user
+18:14:13.008 [] [main] DEBUG c.r.controllers.MenuController - creating a new user
+18:14:13.021 [] [main] DEBUG com.revature.daos.UserDAOImpl - finding user with username tom
+18:14:13.266 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:14:55.320 [] [main] INFO  com.revature.Driver - Application started
+18:15:04.407 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:15:10.283 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:15:10.293 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:17:40.036 [] [main] INFO  com.revature.Driver - Application started
+18:17:50.563 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:17:56.044 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:17:56.054 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:19:28.972 [] [main] INFO  com.revature.Driver - Application started
+18:19:39.656 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:19:45.127 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:19:45.138 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:20:55.327 [] [main] INFO  com.revature.Driver - Application started
+18:21:02.979 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:21:07.639 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:21:07.653 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:21:26.870 [] [main] INFO  com.revature.Driver - Application started
+18:21:36.495 [] [main] DEBUG c.r.controllers.MenuController - creating a new user
+18:21:41.745 [] [main] DEBUG c.r.controllers.MenuController - creating a new user
+18:21:41.756 [] [main] DEBUG com.revature.daos.UserDAOImpl - finding user with username tom
+18:21:41.998 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:22:37.812 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:22:37.813 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:24:24.831 [] [main] INFO  com.revature.Driver - Application started
+18:29:33.695 [] [main] INFO  com.revature.Driver - Application started
+18:29:40.897 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:30:17.947 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:30:17.957 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:30:21.283 [] [main] DEBUG c.r.controllers.MenuController - getting customer data
+18:30:24.606 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 2
+18:30:24.704 [] [main] ERROR com.revature.daos.CustomerDAOImpl - customer record could not be found
+org.postgresql.util.PSQLException: ERROR: operator does not exist: character varying = integer
+  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+  Position: 71
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2552)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2284)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:322)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:481)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:401)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at com.revature.daos.CustomerDAOImpl.getCustomerById(CustomerDAOImpl.java:31)
+	at com.revature.services.CustomerService.getCustomerInfo(CustomerService.java:13)
+	at com.revature.controllers.AccountController.viewCustomerData(AccountController.java:42)
+	at com.revature.services.UserService.adminMenu(UserService.java:92)
+	at com.revature.controllers.MenuController.adminMenu(MenuController.java:86)
+	at com.revature.controllers.MenuController.menus(MenuController.java:36)
+	at com.revature.controllers.MenuController.logIn(MenuController.java:28)
+	at com.revature.Driver.main(Driver.java:35)
+18:34:33.879 [] [main] INFO  com.revature.Driver - Application started
+18:34:46.703 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:34:51.226 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:34:51.237 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:34:55.917 [] [main] DEBUG c.r.controllers.MenuController - getting customer data
+18:34:59.478 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 2
+18:39:58.237 [] [main] INFO  com.revature.Driver - Application started
+18:40:04.559 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+18:40:09.214 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+18:40:09.227 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+18:40:12.188 [] [main] DEBUG c.r.controllers.MenuController - getting customer data
+18:40:16.127 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 2
+20:42:35.067 [] [main] INFO  com.revature.Driver - Application started
+20:42:44.535 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:42:49.732 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+20:42:49.744 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+20:42:55.934 [] [main] DEBUG c.r.controllers.MenuController - opening an account
+20:43:18.361 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+20:43:18.362 [] [main] DEBUG c.r.controllers.MenuController - opening account
+20:43:19.306 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 3
+20:43:19.390 [] [main] DEBUG com.revature.daos.AccountDAOImpl - making sure customer exists with that id
+20:44:08.152 [] [main] INFO  com.revature.Driver - Application started
+20:44:13.821 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:44:16.142 [] [main] INFO  com.revature.Driver - Application started
+20:44:17.221 [] [main] INFO  com.revature.Driver - Application started
+20:44:24.114 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:44:28.437 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+20:44:28.450 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+20:44:31.389 [] [main] DEBUG c.r.controllers.MenuController - opening an account
+20:44:49.676 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+20:44:49.677 [] [main] DEBUG c.r.controllers.MenuController - opening account
+20:44:50.506 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 1
+20:44:50.641 [] [main] DEBUG com.revature.daos.AccountDAOImpl - making sure customer exists with that id
+20:44:50.642 [] [main] DEBUG com.revature.daos.AccountDAOImpl - opening account
+20:46:21.708 [] [main] INFO  com.revature.Driver - Application started
+20:46:31.400 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:46:39.404 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+20:46:39.414 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+20:48:22.258 [] [main] INFO  c.r.controllers.MenuController - admin logging out
+20:49:26.014 [] [main] INFO  com.revature.Driver - Application started
+20:49:31.674 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:49:39.185 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+20:49:39.195 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+20:49:42.164 [] [main] DEBUG c.r.controllers.MenuController - opening an account
+20:49:53.407 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+20:50:09.720 [] [main] INFO  com.revature.Driver - Application started
+20:50:22.913 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:50:32.051 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+20:50:32.061 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+20:50:37.228 [] [main] ERROR com.revature.daos.UserDAOImpl - couldn't log in
+org.postgresql.util.PSQLException: An I/O error occurred while sending to the backend.
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:349)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:481)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:401)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at com.revature.daos.UserDAOImpl.logInUser(UserDAOImpl.java:32)
+	at com.revature.services.UserService.logInUser(UserService.java:28)
+	at com.revature.controllers.MenuController.logIn(MenuController.java:24)
+	at com.revature.Driver.main(Driver.java:35)
+Caused by: javax.net.ssl.SSLException: An established connection was aborted by the software in your host machine
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:325)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:268)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:263)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1667)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1049)
+	at org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:161)
+	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:128)
+	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:113)
+	at org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:73)
+	at org.postgresql.core.PGStream.receiveChar(PGStream.java:443)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2056)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:322)
+	... 8 common frames omitted
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1052)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:356)
+		... 19 common frames omitted
+Caused by: java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:982)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:469)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:463)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1421)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1033)
+	... 15 common frames omitted
+20:51:38.992 [] [main] INFO  com.revature.Driver - Application started
+20:51:49.711 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:51:55.366 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+20:51:55.377 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+20:51:58.234 [] [main] DEBUG c.r.controllers.MenuController - opening an account
+20:52:13.899 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+20:52:13.900 [] [main] DEBUG c.r.controllers.MenuController - opening account
+20:52:14.805 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 2
+20:52:14.912 [] [main] DEBUG com.revature.daos.AccountDAOImpl - making sure customer exists with that id
+20:52:14.912 [] [main] DEBUG com.revature.daos.AccountDAOImpl - opening account
+20:53:14.845 [] [main] INFO  com.revature.Driver - Application started
+20:53:20.792 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:53:26.269 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+20:53:26.280 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+20:53:38.584 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+20:54:37.082 [] [main] INFO  com.revature.Driver - Application started
+20:54:46.277 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:54:50.983 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+20:54:50.994 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+20:55:00.892 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+20:56:49.604 [] [main] INFO  com.revature.Driver - Application started
+20:56:57.376 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+20:57:02.128 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+20:57:02.138 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+20:57:12.944 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+23:06:40.528 [] [main] INFO  com.revature.Driver - Application started
+23:06:52.226 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:06:57.284 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:06:57.294 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:07:11.531 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+23:10:35.859 [] [main] INFO  com.revature.Driver - Application started
+23:12:14.328 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:12:21.078 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:12:21.088 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:12:30.590 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+23:14:12.869 [] [main] INFO  com.revature.Driver - Application started
+23:14:20.769 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:14:31.519 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:14:31.531 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:14:47.398 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+23:15:56.837 [] [main] INFO  com.revature.Driver - Application started
+23:16:03.847 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:16:08.805 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:16:08.815 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:16:19.284 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+23:16:56.922 [] [main] INFO  com.revature.Driver - Application started
+23:17:03.751 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:17:07.557 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:17:07.573 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:17:09.416 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+23:17:51.335 [] [main] INFO  com.revature.Driver - Application started
+23:17:57.909 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:18:02.161 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:18:02.173 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:18:04.689 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+23:18:20.529 [] [main] INFO  com.revature.Driver - Application started
+23:18:27.083 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:18:31.531 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:18:31.543 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:18:42.659 [] [main] DEBUG c.r.controllers.MenuController - getting account data
+23:18:44.608 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding account for 2
+23:19:07.682 [] [main] INFO  com.revature.Driver - Application started
+23:19:13.369 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:19:18.802 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:19:18.812 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:19:21.319 [] [main] DEBUG c.r.controllers.MenuController - getting customer data
+23:19:24.840 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 2
+23:19:44.984 [] [main] INFO  com.revature.Driver - Application started
+23:19:54.159 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:19:58.003 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:19:58.014 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:20:01.336 [] [main] DEBUG c.r.controllers.MenuController - Approving or denying account
+23:20:17.095 [] [main] DEBUG c.r.controllers.MenuController - deleting account 1
+23:20:17.096 [] [main] DEBUG com.revature.daos.AccountDAOImpl - updating account 1
+23:29:35.461 [] [main] INFO  com.revature.Driver - Application started
+23:29:43.284 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:31:23.562 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:31:23.572 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:31:32.632 [] [main] DEBUG c.r.controllers.MenuController - Approving or denying account
+23:31:39.148 [] [main] DEBUG c.r.controllers.MenuController - deleting account 1
+23:31:39.149 [] [main] DEBUG com.revature.daos.AccountDAOImpl - updating account 1
+23:32:14.737 [] [main] INFO  com.revature.Driver - Application started
+23:32:22.736 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+23:32:27.965 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+23:32:27.974 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+23:33:00.148 [] [main] DEBUG c.r.controllers.MenuController - deleting account 2
+23:33:00.148 [] [main] DEBUG com.revature.daos.AccountDAOImpl - deleting account 2
+01:14:47.429 [] [main] INFO  com.revature.Driver - Application started
+01:14:58.357 [] [main] DEBUG c.r.controllers.MenuController - creating a new user
+01:15:12.825 [] [main] INFO  com.revature.Driver - Application started
+01:15:18.738 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:15:25.691 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:15:25.701 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:15:31.140 [] [main] DEBUG c.r.controllers.MenuController - making a deposit
+01:15:43.993 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:15:43.993 [] [main] DEBUG c.r.controllers.MenuController - creating a deposit
+01:15:43.994 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:15:44.086 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating deposit
+01:24:55.669 [] [main] INFO  com.revature.Driver - Application started
+01:25:25.279 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:25:30.120 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:25:30.131 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:25:48.143 [] [main] DEBUG c.r.controllers.MenuController - making a deposit
+01:25:58.291 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:25:58.291 [] [main] DEBUG c.r.controllers.MenuController - creating a deposit
+01:25:58.291 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:25:58.413 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating deposit
+01:26:28.783 [] [main] INFO  com.revature.Driver - Application started
+01:26:37.144 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:26:42.787 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:26:42.799 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:26:46.525 [] [main] DEBUG c.r.controllers.MenuController - making a withdrawal
+01:26:52.952 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:26:52.952 [] [main] DEBUG c.r.controllers.MenuController - creating new withdrawal
+01:26:52.952 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:26:53.070 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating withdrawal
+01:27:31.841 [] [main] INFO  com.revature.Driver - Application started
+01:27:40.986 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:27:44.906 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:27:44.916 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:27:47.747 [] [main] DEBUG c.r.controllers.MenuController - making a withdrawal
+01:27:58.470 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:27:58.471 [] [main] DEBUG c.r.controllers.MenuController - creating new withdrawal
+01:27:58.471 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:27:58.653 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating withdrawal
+01:31:02.219 [] [main] INFO  com.revature.Driver - Application started
+01:31:14.144 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:31:19.208 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:31:19.218 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:31:23.024 [] [main] DEBUG c.r.controllers.MenuController - making a withdrawal
+01:31:28.746 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:31:28.747 [] [main] DEBUG c.r.controllers.MenuController - creating new withdrawal
+01:31:28.747 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:31:28.891 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating withdrawal
+01:32:47.432 [] [main] INFO  com.revature.Driver - Application started
+01:32:56.003 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:33:01.444 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:33:01.457 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:33:04.463 [] [main] DEBUG c.r.controllers.MenuController - making a withdrawal
+01:33:08.354 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:33:08.354 [] [main] DEBUG c.r.controllers.MenuController - creating new withdrawal
+01:33:08.354 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:33:08.462 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating withdrawal
+01:40:45.591 [] [main] INFO  com.revature.Driver - Application started
+01:40:54.430 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:40:58.283 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:40:58.294 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:41:04.155 [] [main] DEBUG c.r.controllers.MenuController - making a withdrawal
+01:41:12.858 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:41:12.858 [] [main] DEBUG c.r.controllers.MenuController - creating new withdrawal
+01:41:12.859 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:41:13.068 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating withdrawal
+01:41:13.150 [] [main] DEBUG com.revature.daos.AccountDAOImpl - adjusting balance
+01:41:13.236 [] [main] DEBUG c.r.controllers.MenuController - viewing balance of account 1
+01:41:13.237 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:42:58.962 [] [main] INFO  com.revature.Driver - Application started
+01:43:07.609 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:43:12.965 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:43:12.976 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:43:18.638 [] [main] DEBUG c.r.controllers.MenuController - making a deposit
+01:43:26.781 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:43:26.781 [] [main] DEBUG c.r.controllers.MenuController - creating a deposit
+01:43:26.782 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:43:26.983 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating deposit
+01:43:27.061 [] [main] DEBUG com.revature.daos.AccountDAOImpl - adjusting balance
+01:43:27.146 [] [main] DEBUG c.r.controllers.MenuController - viewing balance of account 1
+01:43:27.147 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:44:10.015 [] [main] INFO  com.revature.Driver - Application started
+01:44:18.673 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:44:25.232 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:44:25.242 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:44:32.970 [] [main] DEBUG c.r.controllers.MenuController - making a transfer
+01:44:46.961 [] [main] INFO  com.revature.Driver - Application started
+01:45:58.381 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:46:05.175 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:46:05.187 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:46:08.660 [] [main] DEBUG c.r.controllers.MenuController - opening an account
+01:46:24.370 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:46:24.370 [] [main] DEBUG c.r.controllers.MenuController - opening account
+01:46:25.195 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 1
+01:46:25.316 [] [main] DEBUG com.revature.daos.AccountDAOImpl - making sure customer exists with that id
+01:46:25.317 [] [main] DEBUG com.revature.daos.AccountDAOImpl - opening account
+01:46:58.485 [] [main] INFO  com.revature.Driver - Application started
+01:47:07.073 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:47:14.558 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:47:14.568 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:47:18.229 [] [main] DEBUG c.r.controllers.MenuController - making a transfer
+01:47:39.347 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:47:39.347 [] [main] DEBUG c.r.controllers.MenuController - creating a transfer
+01:47:39.347 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:47:39.560 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 3
+01:47:39.642 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating withdrawal
+01:47:39.738 [] [main] DEBUG com.revature.daos.AccountDAOImpl - adjusting balance
+01:47:39.817 [] [main] DEBUG com.revature.daos.AccountDAOImpl - adjusting balance
+01:47:39.898 [] [main] DEBUG c.r.controllers.MenuController - viewing balance of account 1
+01:47:39.898 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:47:39.980 [] [main] DEBUG c.r.controllers.MenuController - viewing balance of account 3
+01:47:39.981 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 3
+01:48:59.711 [] [main] INFO  com.revature.Driver - Application started
+01:49:08.418 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:49:13.943 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:49:13.954 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:49:17.397 [] [main] DEBUG c.r.controllers.MenuController - opening an account
+01:49:28.970 [] [main] INFO  com.revature.Driver - Application started
+01:49:34.968 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+01:49:39.193 [] [main] DEBUG c.r.controllers.MenuController - logging in user
+01:49:39.205 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+01:49:42.224 [] [main] DEBUG c.r.controllers.MenuController - making a transfer
+01:49:53.163 [] [main] DEBUG c.r.controllers.MenuController - making sure number passed in is not less than 0
+01:49:53.163 [] [main] DEBUG c.r.controllers.MenuController - creating a transfer
+01:49:53.163 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:49:53.255 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 3
+01:49:53.336 [] [main] DEBUG com.revature.daos.AccountDAOImpl - creating withdrawal
+01:49:53.415 [] [main] DEBUG com.revature.daos.AccountDAOImpl - adjusting balance
+01:49:53.498 [] [main] DEBUG com.revature.daos.AccountDAOImpl - adjusting balance
+01:49:53.579 [] [main] DEBUG c.r.controllers.MenuController - viewing balance of account 1
+01:49:53.580 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 1
+01:49:53.663 [] [main] DEBUG c.r.controllers.MenuController - viewing balance of account 3
+01:49:53.663 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 3
+06:35:46.097 [] [main] INFO  com.revature.Driver - Application started
+06:38:00.230 [] [main] INFO  com.revature.Driver - Application started
+06:38:09.234 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+07:55:31.113 [] [main] INFO  com.revature.Driver - Application started
+07:58:44.773 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+07:58:51.719 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+07:58:51.732 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+07:59:12.543 [] [main] DEBUG c.r.controllers.AccountController - opening an account
+07:59:24.398 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+07:59:24.398 [] [main] DEBUG com.revature.services.AccountService - opening account for 3
+07:59:25.357 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 3
+07:59:25.452 [] [main] DEBUG com.revature.daos.AccountDAOImpl - making sure customer exists with id 3
+07:59:25.452 [] [main] DEBUG com.revature.daos.AccountDAOImpl - opening account
+07:59:56.938 [] [main] DEBUG c.r.controllers.AccountController - opening an account
+08:03:10.314 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:03:10.315 [] [main] DEBUG com.revature.services.AccountService - opening account for 3
+08:03:10.315 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 3
+08:03:10.503 [] [main] DEBUG com.revature.daos.AccountDAOImpl - making sure customer exists with id 3
+08:03:10.504 [] [main] DEBUG com.revature.daos.AccountDAOImpl - opening account
+08:04:29.795 [] [main] DEBUG c.r.c.TransactionController - making a withdrawal
+08:04:39.917 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:04:39.917 [] [main] DEBUG c.r.services.TransactionService - creating new withdrawal
+08:04:39.918 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:04:40.033 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:04:40.034 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:05:02.623 [] [main] DEBUG c.r.c.TransactionController - making a withdrawal
+08:05:18.503 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:05:18.503 [] [main] DEBUG c.r.services.TransactionService - creating new withdrawal
+08:05:18.503 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:05:18.604 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating withdrawal
+08:05:18.676 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:05:18.759 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:05:18.759 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:08:35.451 [] [main] INFO  com.revature.Driver - Application started
+08:10:29.919 [] [main] INFO  com.revature.Driver - Application started
+08:10:39.115 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:10:43.941 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:10:43.951 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:10:56.991 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:11:14.397 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:11:14.397 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+08:11:14.397 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:11:14.487 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+08:11:14.488 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+08:11:14.567 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:11:14.646 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:11:14.646 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:12:29.149 [] [main] DEBUG c.r.c.TransactionController - making a transfer
+08:12:49.495 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:12:49.495 [] [main] DEBUG c.r.services.TransactionService - creating a transfer
+08:12:49.496 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 5
+08:12:49.684 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:12:49.750 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating transfer
+08:12:49.829 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:12:49.902 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:12:49.973 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 5
+08:12:49.975 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 5
+08:12:50.051 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:12:50.051 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:14:17.690 [] [main] DEBUG c.r.c.TransactionController - making a transfer
+08:18:02.737 [] [main] INFO  com.revature.Driver - Application started
+08:18:09.616 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:18:14.008 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:18:14.018 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:18:20.224 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:18:57.875 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:18:57.875 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+08:18:57.876 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:18:58.132 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+08:18:58.132 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+08:18:58.224 [] [main] ERROR com.revature.daos.TransactionDAOImpl - deposit could not be created
+org.postgresql.util.PSQLException: ERROR: insert or update on table "banktransaction" violates foreign key constraint "banktransaction_customer_id_fkey"
+  Detail: Key (customer_id)=(4) is not present in table "bankcustomer".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2552)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2284)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:322)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:481)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:401)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.revature.daos.TransactionDAOImpl.createDeposit(TransactionDAOImpl.java:69)
+	at com.revature.services.TransactionService.createDeposit(TransactionService.java:26)
+	at com.revature.controllers.TransactionController.makeDeposit(TransactionController.java:72)
+	at com.revature.services.UserService.customerMenu(UserService.java:45)
+	at com.revature.controllers.MenuController.customerMenu(MenuController.java:66)
+	at com.revature.controllers.MenuController.menus(MenuController.java:36)
+	at com.revature.controllers.MenuController.logIn(MenuController.java:26)
+	at com.revature.Driver.main(Driver.java:34)
+08:18:58.226 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:18:58.226 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:19:40.901 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:19:49.782 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:19:49.783 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+08:19:49.783 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:19:49.860 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+08:19:49.860 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+08:19:49.927 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:19:49.995 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:19:49.996 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:20:03.567 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:21:09.778 [] [main] INFO  com.revature.Driver - Application started
+08:21:15.736 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:21:20.824 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:21:20.834 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:21:25.669 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:21:35.932 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:21:35.932 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+08:21:35.932 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:21:36.018 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+08:21:36.019 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+08:21:36.101 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:21:36.180 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:21:36.181 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:24:15.350 [] [main] INFO  com.revature.Driver - Application started
+08:24:21.687 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:24:25.962 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:24:25.973 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:24:34.241 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:24:46.761 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:24:46.761 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+08:24:46.761 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:24:46.970 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+08:24:46.970 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+08:24:47.039 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:24:47.111 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:24:47.112 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:25:09.938 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:26:58.192 [] [main] INFO  com.revature.Driver - Application started
+08:27:04.938 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:27:09.886 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:27:09.895 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:27:13.367 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:27:35.865 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:27:35.865 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+08:27:35.866 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:27:35.943 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+08:27:35.943 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+08:27:36.027 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:27:36.094 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:27:36.095 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:27:39.099 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:30:14.332 [] [main] INFO  com.revature.Driver - Application started
+08:31:59.371 [] [main] INFO  com.revature.Driver - Application started
+08:32:06.273 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:32:16.553 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:32:16.569 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:33:20.071 [] [main] INFO  com.revature.Driver - Application started
+08:33:26.524 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:33:35.169 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:33:35.179 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:36:57.488 [] [main] INFO  com.revature.Driver - Application started
+08:37:04.263 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:37:08.185 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:37:08.194 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:37:14.073 [] [main] DEBUG c.r.c.TransactionController - making a withdrawal
+08:37:22.404 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:37:22.404 [] [main] DEBUG c.r.services.TransactionService - creating new withdrawal
+08:37:22.404 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:37:22.605 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating withdrawal
+08:37:22.677 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:37:22.745 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:37:22.745 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:37:36.030 [] [main] DEBUG c.r.c.TransactionController - making a withdrawal
+08:44:01.077 [] [main] INFO  com.revature.Driver - Application started
+08:46:46.536 [] [main] INFO  com.revature.Driver - Application started
+08:46:52.941 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:46:57.277 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:46:57.295 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:47:00.186 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:47:13.562 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:47:13.563 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+08:47:13.563 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:47:13.756 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+08:47:13.756 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+08:47:13.850 [] [main] ERROR com.revature.daos.TransactionDAOImpl - deposit could not be created
+org.postgresql.util.PSQLException: ERROR: insert or update on table "banktransaction" violates foreign key constraint "banktransaction_customer_id_fkey"
+  Detail: Key (customer_id)=(5) is not present in table "bankcustomer".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2552)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2284)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:322)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:481)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:401)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.revature.daos.TransactionDAOImpl.createDeposit(TransactionDAOImpl.java:69)
+	at com.revature.services.TransactionService.createDeposit(TransactionService.java:26)
+	at com.revature.controllers.TransactionController.makeDeposit(TransactionController.java:72)
+	at com.revature.services.UserService.customerMenu(UserService.java:46)
+	at com.revature.controllers.MenuController.customerMenu(MenuController.java:69)
+	at com.revature.controllers.MenuController.menus(MenuController.java:37)
+	at com.revature.controllers.MenuController.logIn(MenuController.java:27)
+	at com.revature.Driver.main(Driver.java:34)
+08:47:13.851 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:47:13.852 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:47:41.411 [] [main] INFO  com.revature.Driver - Application started
+08:47:47.443 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:48:08.556 [] [main] DEBUG com.revature.services.UserService - logging in user n
+08:48:08.567 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:48:19.674 [] [main] INFO  com.revature.Driver - Application started
+08:48:25.663 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:48:31.251 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:48:31.261 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:48:35.029 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:48:47.972 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:48:47.973 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+08:48:47.973 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:48:48.108 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+08:48:48.109 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+08:48:48.181 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:48:48.262 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:48:48.262 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:49:01.509 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+08:51:30.405 [] [main] INFO  com.revature.Driver - Application started
+08:51:38.102 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:51:42.658 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+08:51:42.669 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:51:47.349 [] [main] DEBUG c.r.c.TransactionController - making a withdrawal
+08:51:55.183 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+08:51:55.183 [] [main] DEBUG c.r.services.TransactionService - creating new withdrawal
+08:51:55.183 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:51:55.303 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating withdrawal
+08:51:55.376 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+08:51:55.447 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+08:51:55.447 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+08:51:58.992 [] [main] DEBUG c.r.c.TransactionController - making a withdrawal
+08:53:35.090 [] [main] INFO  com.revature.Driver - Application started
+08:53:41.723 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+08:53:47.395 [] [main] DEBUG com.revature.services.UserService - logging in user clint
+08:53:47.406 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+08:53:51.304 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+08:54:05.980 [] [main] DEBUG c.r.controllers.AccountController - getting account data
+08:54:17.405 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding account for 4
+08:54:34.121 [] [main] DEBUG c.r.controllers.AccountController - viewing customer data
+08:54:38.997 [] [main] DEBUG c.revature.services.CustomerService - getting customer data for 3
+08:54:39.765 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 3
+08:54:53.612 [] [main] DEBUG c.r.controllers.AccountController - Approving or denying account
+08:54:59.219 [] [main] DEBUG com.revature.services.AccountService - updating account 4
+08:54:59.219 [] [main] DEBUG com.revature.daos.AccountDAOImpl - updating account 4
+08:56:03.604 [] [main] DEBUG c.r.controllers.AccountController - Approving or denying account
+09:00:12.121 [] [main] INFO  com.revature.Driver - Application started
+09:00:24.674 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+09:00:28.707 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+09:00:28.717 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+09:00:40.983 [] [main] DEBUG c.r.c.TransactionController - making a withdrawal
+09:00:49.275 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+09:00:49.275 [] [main] DEBUG c.r.services.TransactionService - creating new withdrawal
+09:00:49.275 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+09:00:49.554 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating withdrawal
+09:00:49.630 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+09:00:49.697 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+09:00:49.697 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+09:00:52.500 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+09:01:04.361 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+09:01:04.362 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+09:01:04.362 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+09:01:04.463 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+09:01:04.463 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+09:01:04.548 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+09:01:04.622 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+09:01:04.622 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+09:01:08.112 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+09:02:05.435 [] [main] INFO  com.revature.Driver - Application started
+09:02:12.566 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+09:02:16.300 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+09:02:16.310 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+09:02:19.494 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+09:02:35.852 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+09:02:35.852 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+09:02:35.852 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+09:02:35.986 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+09:02:35.987 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+09:02:36.057 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+09:02:36.127 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+09:02:36.127 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+09:02:38.352 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+09:03:32.415 [] [main] INFO  com.revature.Driver - Application started
+09:03:38.556 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+09:03:42.395 [] [main] DEBUG com.revature.services.UserService - logging in user tom
+09:03:42.405 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+09:03:44.909 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+09:03:53.611 [] [main] DEBUG com.revature.services.AccountService - making sure number passed in is not less than 0
+09:03:53.612 [] [main] DEBUG c.r.services.TransactionService - creating a deposit
+09:03:53.612 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+09:03:53.850 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating deposit
+09:03:53.851 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - creating a deposit
+09:03:53.930 [] [main] DEBUG com.revature.daos.TransactionDAOImpl - adjusting balance
+09:03:53.996 [] [main] DEBUG com.revature.services.AccountService - viewing balance of account 4
+09:03:53.997 [] [main] DEBUG com.revature.daos.AccountDAOImpl - retrieving balance of account for 4
+09:03:56.350 [] [main] DEBUG c.r.c.TransactionController - making a deposit
+09:05:35.310 [] [main] INFO  com.revature.Driver - Application started
+09:05:41.161 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+09:05:46.381 [] [main] DEBUG com.revature.services.UserService - logging in user clint
+09:05:46.390 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+09:05:50.630 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+09:06:04.266 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+09:07:43.033 [] [main] INFO  com.revature.Driver - Application started
+09:07:48.385 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+09:07:53.959 [] [main] DEBUG com.revature.services.UserService - logging in user clint
+09:07:53.970 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+09:07:57.752 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+09:08:00.768 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+09:15:28.132 [] [main] INFO  com.revature.Driver - Application started
+09:15:35.588 [] [main] DEBUG c.r.controllers.MenuController - logging the user in and making sure they have been authenticated
+09:15:44.204 [] [main] DEBUG com.revature.services.UserService - logging in user rose
+09:15:44.215 [] [main] DEBUG com.revature.daos.UserDAOImpl - logging in
+09:15:57.672 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding all accounts
+09:16:14.100 [] [main] DEBUG c.r.controllers.AccountController - getting account data
+09:16:16.192 [] [main] DEBUG com.revature.daos.AccountDAOImpl - finding account for 4
+09:16:36.125 [] [main] DEBUG c.r.controllers.AccountController - viewing customer data
+09:16:37.938 [] [main] DEBUG c.revature.services.CustomerService - getting customer data for 3
+09:16:38.814 [] [main] DEBUG com.revature.daos.CustomerDAOImpl - finding customer record for 3
+09:16:52.997 [] [main] DEBUG c.r.controllers.AccountController - Approving or denying account
+09:22:04.210 [] [main] DEBUG com.revature.services.AccountService - updating account 5
+09:22:04.211 [] [main] DEBUG com.revature.daos.AccountDAOImpl - updating account 5
+09:22:32.261 [] [main] DEBUG c.r.controllers.AccountController - deleting account
+09:22:36.047 [] [main] DEBUG com.revature.services.AccountService - deleting account 5
+09:22:36.048 [] [main] DEBUG com.revature.daos.AccountDAOImpl - deleting account 5
